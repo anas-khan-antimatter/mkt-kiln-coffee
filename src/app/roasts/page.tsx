@@ -102,7 +102,7 @@ export default function RoastsPage() {
 
             <div className="flex items-center gap-2">
               <span className="text-sm font-medium text-muted-foreground">Process</span>
-              <Select value={processFilter} onValueChange={setProcessFilter}>
+              <Select value={processFilter} onValueChange={(v) => v && setProcessFilter(v)}>
                 <SelectTrigger className="w-44 bg-card">
                   <SelectValue placeholder="All Processes" />
                 </SelectTrigger>
@@ -119,7 +119,7 @@ export default function RoastsPage() {
 
             <div className="flex items-center gap-2">
               <span className="text-sm font-medium text-muted-foreground">Sort</span>
-              <Select value={sortBy} onValueChange={setSortBy}>
+              <Select value={sortBy} onValueChange={(v) => v && setSortBy(v)}>
                 <SelectTrigger className="w-40 bg-card">
                   <SelectValue placeholder="Sort By" />
                 </SelectTrigger>
