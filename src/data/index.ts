@@ -304,7 +304,7 @@ export const roasts: RoastProduct[] = [
     roaster: "Kiln Roastery",
     origin: "Ethiopia / Colombia / Brazil",
     region: "Blend",
-    process: "Natural / Washed",
+    process: "Natural",
     elevation: "Various",
     flavorNotes: ["Dark Chocolate", "Cherry", "Brown Sugar", "Smooth"],
     body: "Medium-Full",

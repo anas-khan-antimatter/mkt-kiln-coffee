@@ -85,7 +85,7 @@ export default function RoastsPage() {
           <div className="flex flex-wrap items-center gap-3">
             <div className="flex items-center gap-2">
               <span className="text-sm font-medium text-muted-foreground">Origin</span>
-              <Select value={originFilter} onValueChange={setOriginFilter}>
+              <Select value={originFilter} onValueChange={(v) => v && setOriginFilter(v)}>
                 <SelectTrigger className="w-44 bg-card">
                   <SelectValue placeholder="All Origins" />
                 </SelectTrigger>
