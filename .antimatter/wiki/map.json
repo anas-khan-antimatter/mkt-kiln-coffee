@@ -1,0 +1,200 @@
+{
+  "root": "/tmp/am-ws/c-1790732958368-5sc64",
+  "name": "c-1790732958368-5sc64",
+  "generatedAt": "2026-09-30T17:50:34.417Z",
+  "fileCount": 45,
+  "dirCount": 10,
+  "languages": {
+    "Markdown": 8,
+    "JSON": 5,
+    "JavaScript": 2,
+    "TypeScript": 22,
+    "CSS": 1
+  },
+  "keyFiles": [
+    "package.json",
+    "README.md",
+    "tsconfig.json"
+  ],
+  "directories": [
+    {
+      "dir": ".antimatter/wiki",
+      "fileCount": 6,
+      "files": [
+        "index.md",
+        "log.md",
+        "map.json",
+        "map.md",
+        "overview.md",
+        "schema.md"
+      ],
+      "symbols": []
+    },
+    {
+      "dir": "(root)",
+      "fileCount": 11,
+      "files": [
+        ".gitignore",
+        "AGENTS.md",
+        "CLAUDE.md",
+        "components.json",
+        "eslint.config.mjs",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "README.md",
+        "tsconfig.json"
+      ],
+      "symbols": []
+    },
+    {
+      "dir": "public",
+      "fileCount": 5,
+      "files": [
+        "file.svg",
+        "globe.svg",
+        "next.svg",
+        "vercel.svg",
+        "window.svg"
+      ],
+      "symbols": []
+    },
+    {
+      "dir": "src/app",
+      "fileCount": 4,
+      "files": [
+        "favicon.ico",
+        "globals.css",
+        "layout.tsx",
+        "page.tsx"
+      ],
+      "symbols": [
+        {
+          "name": "metadata",
+          "kind": "const"
+        }
+      ]
+    },
+    {
+      "dir": "src/app/roasts",
+      "fileCount": 1,
+      "files": [
+        "page.tsx"
+      ],
+      "symbols": []
+    },
+    {
+      "dir": "src/app/roasts/[slug]",
+      "fileCount": 2,
+      "files": [
+        "client-page.tsx",
+        "page.tsx"
+      ],
+      "symbols": [
+        {
+          "name": "generateStaticParams",
+          "kind": "fn"
+        }
+      ]
+    },
+    {
+      "dir": "src/app/subscription",
+      "fileCount": 1,
+      "files": [
+        "page.tsx"
+      ],
+      "symbols": []
+    },
+    {
+      "dir": "src/components/ui",
+      "fileCount": 10,
+      "files": [
+        "badge.tsx",
+        "button.tsx",
+        "card.tsx",
+        "dialog.tsx",
+        "input.tsx",
+        "navigation-menu.tsx",
+        "scroll-area.tsx",
+        "select.tsx",
+        "separator.tsx",
+        "sheet.tsx"
+      ],
+      "symbols": []
+    },
+    {
+      "dir": "src/data",
+      "fileCount": 2,
+      "files": [
+        "index.ts",
+        "types.ts"
+      ],
+      "symbols": [
+        {
+          "name": "roasts",
+          "kind": "const"
+        },
+        {
+          "name": "getOrigins",
+          "kind": "const"
+        },
+        {
+          "name": "getProcesses",
+          "kind": "const"
+        },
+        {
+          "name": "getFeaturedRoasts",
+          "kind": "const"
+        },
+        {
+          "name": "cafes",
+          "kind": "const"
+        },
+        {
+          "name": "brewGuides",
+          "kind": "const"
+        },
+        {
+          "name": "siteInfo",
+          "kind": "const"
+        },
+        {
+          "name": "RoastProduct",
+          "kind": "interface"
+        },
+        {
+          "name": "CafeLocation",
+          "kind": "interface"
+        },
+        {
+          "name": "BrewGuide",
+          "kind": "interface"
+        },
+        {
+          "name": "CartItem",
+          "kind": "type"
+        }
+      ]
+    },
+    {
+      "dir": "src/lib",
+      "fileCount": 3,
+      "files": [
+        "cart-context.tsx",
+        "client-provider.tsx",
+        "utils.ts"
+      ],
+      "symbols": [
+        {
+          "name": "CartProvider",
+          "kind": "fn"
+        },
+        {
+          "name": "useCart",
+          "kind": "fn"
+        }
+      ]
+    }
+  ]
+}
