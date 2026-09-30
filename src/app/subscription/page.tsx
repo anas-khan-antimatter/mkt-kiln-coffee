@@ -27,9 +27,9 @@ export default function SubscriptionPage() {
             <Button size="lg" disabled>
               Get Notified
             </Button>
-            <Button size="lg" variant="outline" asChild>
-              <Link href="/roasts">Browse All Roasts</Link>
-            </Button>
+            <Link href="/roasts">
+              <Button size="lg" variant="outline">Browse All Roasts</Button>
+            </Link>
           </div>
         </div>
       </div>
@@ -200,9 +200,9 @@ export default function SubscriptionPage() {
           ))}
         </div>
         <div className="text-center mt-8">
-          <Button variant="outline" asChild>
-            <Link href="/roasts">View Full Catalog</Link>
-          </Button>
+          <Link href="/roasts">
+            <Button variant="outline">View Full Catalog</Button>
+          </Link>
         </div>
       </section>
 
