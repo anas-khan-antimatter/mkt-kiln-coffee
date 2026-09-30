@@ -1,14 +1,14 @@
 {
   "root": "/tmp/am-ws/c-1790732958368-5sc64",
   "name": "c-1790732958368-5sc64",
-  "generatedAt": "2026-09-30T17:50:34.417Z",
-  "fileCount": 45,
-  "dirCount": 10,
+  "generatedAt": "2026-09-30T19:12:09.689Z",
+  "fileCount": 50,
+  "dirCount": 14,
   "languages": {
     "Markdown": 8,
     "JSON": 5,
     "JavaScript": 2,
-    "TypeScript": 22,
+    "TypeScript": 27,
     "CSS": 1
   },
   "keyFiles": [
@@ -73,6 +73,49 @@
         {
           "name": "metadata",
           "kind": "const"
+        }
+      ]
+    },
+    {
+      "dir": "src/app/api/subscribe",
+      "fileCount": 1,
+      "files": [
+        "route.ts"
+      ],
+      "symbols": [
+        {
+          "name": "POST",
+          "kind": "fn"
+        }
+      ]
+    },
+    {
+      "dir": "src/app/brew",
+      "fileCount": 1,
+      "files": [
+        "page.tsx"
+      ],
+      "symbols": []
+    },
+    {
+      "dir": "src/app/brew-guides",
+      "fileCount": 1,
+      "files": [
+        "page.tsx"
+      ],
+      "symbols": []
+    },
+    {
+      "dir": "src/app/brew-guides/[slug]",
+      "fileCount": 2,
+      "files": [
+        "client-page.tsx",
+        "page.tsx"
+      ],
+      "symbols": [
+        {
+          "name": "generateStaticParams",
+          "kind": "fn"
         }
       ]
     },
