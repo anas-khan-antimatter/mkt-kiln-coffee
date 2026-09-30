@@ -16,6 +16,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { useCart } from "@/lib/cart-context";
+import TastingWheel from "@/components/tasting-wheel";
 
 export default function RoastProductClient({
   slugPromise,
@@ -130,6 +131,11 @@ export default function RoastProductClient({
             <div>
               <h2 className="font-heading text-lg font-semibold mb-2">Tasting Notes</h2>
               <p className="text-muted-foreground leading-relaxed">{roast.tastingNotes}</p>
+            </div>
+
+            {/* interactive flavor wheel */}
+            <div className="mt-6 flex flex-col items-center py-4 border-y border-border/20">
+              <TastingWheel notes={roast.flavorNotes} />
             </div>
 
             <Separator className="my-6" />
