@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "runsOn": "ubuntu-latest",
+  "setup": [
+    "npm ci"
+  ],
+  "build": [
+    "npm run build"
+  ],
+  "probes": [
+    {
+      "kind": "browser",
+      "url": "/"
+    },
+    {
+      "kind": "browser",
+      "url": "/brew"
+    },
+    {
+      "kind": "browser",
+      "url": "/roasts"
+    },
+    {
+      "kind": "browser",
+      "url": "/subscription"
+    },
+    {
+      "kind": "http",
+      "url": "/api/subscribe"
+    }
+  ]
+}
